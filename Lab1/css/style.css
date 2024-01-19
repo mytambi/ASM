@@ -1,0 +1,31 @@
+.logo {
+    padding: 10px;
+  }
+  
+  .left-menu div {
+    margin: 10px;
+  }
+  
+  footer {
+    height: 100px;
+    background-color: rgb(18, 16, 12);
+  }
+  article{
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  article .card{
+    margin-top: 5px;
+  }
+.col-3 .card{
+  margin: 5px;
+}
+.col-3 .list-group{
+  margin: 5px;
+}
+.card-body .card-text {
+  list-style: none;
+}
+.card-body .card-text{
+  font-size: large;
+}

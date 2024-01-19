@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="public/bootstrap-5.3.2/css/bootstrap.css">
+    <script src="./public/bootstrap-5.3.2/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="./bai1.css">
+    <link rel="stylesheet" href="fontawesome-free-6.5.1-web/css/fontawesome.css">
+    <link rel="stylesheet" href="fontawesome-free-6.5.1-web/css/brands.css">
+    <link rel="stylesheet" href="fontawesome-free-6.5.1-web/css/solid.css">
+    <link rel="stylesheet" href="bai2.css">
+</head>
+
+<body class="container">
+    <div class="card">
+        <div class="card-header">
+            <h5><i class="fa-solid fa-pen"></i> NHẬP LƯƠNG THÁNG 12</h5>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-6">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputmanv" class="form-label">Mã nhân viên</label>
+                            <input type="manv" class="form-control" id="exampleInputmanv"
+                                aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="disabledSelect" class="form-label">Câu lạc bộ</label>
+                            <select id="disabledSelect" class="form-select">
+                                <option>Đà Nẵng</option>
+                                <option>TP Hồ Chí Minh</option>
+                                <option>Hà Nội</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputthuong" class="form-label">Thưởng</label>
+                            <input type="thuong" class="form-control" id="exampleInputthuong"
+                                aria-describedby="emailHelp">
+                        </div>
+                    </form>
+                </div>
+                <div class="col-6">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputhovaten" class="form-label">Họ và tên</label>
+                            <input type="hovaten" class="form-control" id="exampleInputhovaten"
+                                aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputluong" class="form-label">Lương</label>
+                            <input type="luong" class="form-control" id="exampleInputluong"
+                                aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputphucap" class="form-label">Phụ cấp</label>
+                            <input type="phucap" class="form-control" id="exampleInputphucap"
+                                aria-describedby="emailHelp">
+                        </div>
+                    </form>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Ghi chú</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>                  
+            </div>
+            <button type="button" class="btn" disabled><i class="fa-solid fa-floppy-disk"></i> Lưu</button>
+            <button type="button" class="btn" disabled><i class="fa-solid fa-stop"></i> Hủy</button>
+        </div>
+        <div class="card-footer">
+            <h7>Vui lòng nhập thông tin lương cầu thủ</h5>
+        </div>
+    </div>
+</body>
+
+</html>
